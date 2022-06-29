@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>NodaSoft</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+   <div class="wrapper__container">
+      <div class="wrapper">
+         <header class="header" id="header">
+            <div class="container">
+               <div class="header__content">
+                  <a class="header__btn" href="#popup">Open pop-up button</a>
+               </div>
+            </div>
+         </header>
+         <main class="main">
+            <div class="block__one">
+               <div class="container">
+                  <div class="block__one-inner">
+                     <div class="sub__block">1</div>
+                     <div class="sub__block">2</div>
+                     <div class="sub__block">3</div>
+                     <div class="sub__block">4</div>
+                     <div class="sub__block">5</div>
+                  </div>
+               </div>
+            </div>
+            <div class="block__two">
+               <div class="container">
+                  <div class="block__two-inner">
+                     <div class="block__two-content">
+                        <div class="block__size"></div>
+                     </div>
+                     <div class="block__two-content">
+                        <div class="block__size"></div>
+                     </div>
+                     <div class="block__two-content">
+                        <div class="block__size"></div>
+                     </div>
+                     <div class="block__two-content">
+                        <div class="block__size"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </main>
+         <footer class="footer">
+            <div class="container">
+               <div class="footer__content"></div>
+            </div>
+         </footer>
+      </div>
+
+      <div class="overlay" id="popup">
+         <a class="close__area" href="#header"></a>
+         <div class="pop__up">
+            <div class="pop__up-body">
+               <a class="close__btn" href="#">X</a>
+               <div class="pop__up-text">Pop-up</div>
+            </div>
+         </div>
+      </div>
+
+   </div>
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="js/main.min.js"></script>
+</body>
+
+</html>
